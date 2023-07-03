@@ -1,6 +1,6 @@
 #! /bin/bash
-# By AndersonGhost
-#https://github.com/AndersonGhost/SKY-BOX
+# By BlueSkyXN
+#https://github.com/BlueSkyXN/SKY-BOX
 
 #彩色
 red(){
