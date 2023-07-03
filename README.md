@@ -1,4 +1,4 @@
-#该项目来源于BlueSkyXN，链接如下
+# 该项目来源于BlueSkyXN，链接如下
 https://github.com/BlueSkyXN/SKY-BOX
 
 # SKY-BOX
