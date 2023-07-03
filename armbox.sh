@@ -394,10 +394,10 @@ red "卸载请 运行 wget https://raw.githubusercontent.com/FunctionClub/Fail2b
 #主菜单
 function start_menu(){
     clear
-    red " AndersonGhost 综合工具箱 ARM Beta"
+    red " BlueSkyXN 综合工具箱 ARM Beta"
     red " 部分功能可能不行，请反馈，能用的已经标注" 
-    green " FROM: https://github.com/AndersonGhost/SKY-BOX "
-    green " HELP: https://www.AndersonGhost.com/202104/4465.html "
+    green " FROM: https://github.com/BlueSkyXN/SKY-BOX "
+    green " HELP: https://www.BlueSkyXN.com/202104/4465.html "
     green " USE:  wget -O box.sh https://raw.githubusercontent.com/AndersonGhost/SKY-BOX/main/armbox.sh && chmod +x box.sh && clear && ./box.sh "
     yellow " =================================================="
     green " 1. IPV.SH ipv4/6优先级调整一键脚本·下载" 
