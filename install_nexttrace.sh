@@ -216,8 +216,10 @@ TMP_FILE=""  # 已移走，清空变量避免 cleanup 误删
 # ========== 8. 验证 ==========
 
 info "验证安装..."
-if nexttrace -V &>/dev/null; then
-    INSTALLED_VER=$(nexttrace -V 2>&1 | head -n 1)
+# 捕获完整输出后再提取首行，避免 head 关闭管道触发 SIGPIPE + pipefail 导致脚本退出
+FULL_OUTPUT=$(nexttrace -V 2>&1 || true)
+if [ -n "$FULL_OUTPUT" ]; then
+    INSTALLED_VER=$(echo "$FULL_OUTPUT" | head -n 1)
     echo ""
     echo -e "${GREEN}=============================================${NC}"
     echo -e "${GREEN}    nexttrace 安装成功!${NC}"
